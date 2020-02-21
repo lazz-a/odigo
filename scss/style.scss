@@ -1,0 +1,136 @@
+// @import "../../node_modules/slick-carousel/slick/slick";
+// @import "../../node_modules/magnific-popup/dist/magnific-popup";
+//font-family: 'Lato', sans-serif;
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "header";
+@import "intro";
+@import "benefits";
+@import "places";
+@import "tours";
+@import "top";
+@import "videos";
+
+
+
+
+html{
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #102746;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+h1,h2,h3,p{
+  padding: 0;
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+fieldset{
+  border: none;
+}
+
+.wrapper{
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper-full{
+  max-width: 1262px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section-title{
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  position: relative;
+  padding-bottom: 10px;
+  &::after{
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 253px;
+    height: 3px;
+    background-color: #006DFE;
+  }
+}
+
+.footer{
+  background: #0E1D28;
+  padding: 120px 0;
+}
+
+.footer__item{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__logo{
+  width: 50%;
+}
+
+.footer__nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  color: #fff;
+}
+
+.footer__menu-title{
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.footer__menu-item{
+  margin-bottom: 10px;
+}
+
+.footer__menu-link{
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  transition: .2s all;
+
+  &:hover,
+  &:focus,
+  &:active{
+    opacity: .5;
+  }
+}
+
+
+@import "media";
+
